@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>App Description | Mali Studio Creator Automation</title>
+    <meta
+      name="description"
+      content="Detailed public app and review description for Mali Studio Creator Automation."
+    />
+    <link rel="icon" type="image/png" href="assets/app-icon.png" />
+    <link rel="apple-touch-icon" href="assets/app-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.4 18.9 3l1.1 4.4L5.1 9.8 4 5.4Z" /><path d="M5 10h15v9.5A1.5 1.5 0 0 1 18.5 21h-12A1.5 1.5 0 0 1 5 19.5V10Z" /><path d="m7.3 5 2.9 3.7M12.4 4.2l2.9 3.7M17.3 3.5l2.2 2.9" /><path d="m10 13.7 5 2.8-5 2.8v-5.6Z" class="cutout" /></svg></span>
+        <span>Mali Studio</span>
+      </a>
+      <nav class="site-nav">
+        <a href="terms-of-service.html">Terms</a>
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="deletion.html">Deletion</a>
+      </nav>
+    </header>
+    <main class="legal-page">
+      <h1>App Description</h1>
+      <p>Last updated: May 27, 2026</p>
+      <p>
+        Mali Studio Creator Automation is a small creator workflow tool for preparing short, vertical lifestyle videos
+        and publishing approved videos to the creator's connected TikTok account. The intended content is daily
+        slow-life vlog material such as scenic drives, cafe visits, travel moments, and simple everyday clips. The app
+        is operated by the account owner and is not a public social network, scraping tool, analytics marketplace, or
+        mass-posting service.
+      </p>
+
+      <h2>How the app works</h2>
+      <ol>
+        <li>The creator selects photos or short video snippets that they own or have permission to use.</li>
+        <li>The app assembles a 5-10 second vertical video draft with a simple caption and light visual treatment.</li>
+        <li>The creator reviews the draft and chooses whether it should be published.</li>
+        <li>After the creator authorizes the app through TikTok OAuth, the app publishes only the approved video.</li>
+        <li>The app displays basic upload status so the creator can confirm whether the video was published.</li>
+      </ol>
+
+      <h2>Requested scopes and data use</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Scope</th>
+              <th>Purpose</th>
+              <th>Data obtained</th>
+              <th>Use in the app</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>user.info.basic</code></td>
+              <td>Confirm the connected creator account.</td>
+              <td>Basic profile details such as username, display name, avatar, and account identifier.</td>
+              <td>Shown in the dashboard so the creator knows which account is connected before publishing.</td>
+            </tr>
+            <tr>
+              <td><code>video.publish</code></td>
+              <td>Publish creator-approved short videos.</td>
+              <td>Video file, caption, and publishing parameters submitted by the app.</td>
+              <td>Used only to upload a video after the creator has prepared and approved it inside the app.</td>
+            </tr>
+            <tr>
+              <td><code>video.list</code></td>
+              <td>Check recent publish status and avoid duplicate posting.</td>
+              <td>Video IDs, publish status, timestamps, and basic video metadata for the connected account.</td>
+              <td>Displayed as recent upload history and used to confirm whether an app-generated clip was posted.</td>
+            </tr>
+            <tr>
+              <td><code>public.user.info</code></td>
+              <td>Personalize the creator dashboard.</td>
+              <td>Public profile information made available by the platform.</td>
+              <td>Used to label the connected account and improve the account-specific creator workflow.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Data protection and limits</h2>
+      <p>
+        The app collects only the data needed to identify the connected account, create the selected video draft,
+        publish approved content, and show upload status. It does not access private messages, does not scrape content,
+        does not sell user data, and does not share user data with advertising networks.
+      </p>
+
+      <h2>Suggested review submission reason</h2>
+      <p>
+        We are requesting access so Mali Studio Creator Automation can let a creator connect their TikTok account,
+        generate short 5-10 second slow-life vlog videos from their own media, review the generated draft, and publish
+        the approved video to their own account. The requested scopes are used only for account identification,
+        publishing approved videos, displaying recent upload status, and personalizing the creator dashboard.
+      </p>
+    </main>
+  </body>
+</html>
